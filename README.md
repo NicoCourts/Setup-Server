@@ -1,4 +1,6 @@
 # Setup Server
+![travis-ci status](https://travis-ci.com/NicoCourts/Setup-Server.svg?branch=Live)
+
 Following the concept in [this wonderful guide](https://www.humankode.com/ssl/how-to-set-up-free-ssl-certificates-from-lets-encrypt-using-docker-and-nginx) of creating a minimal nginx server to get SSL certificates from LetsEncrypt to inject into your Docker container for your website.
 
 Once the docker container is running you have to issue (on the host machine)
