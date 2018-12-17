@@ -4,13 +4,8 @@ branches:
   only:
     - travis
 
-services:
-  - docker
-
 before_install:
   - docker-compose build
-  - docker-compose run nicocourts/learning-docker
-  - docker-compose ps -a
 
 deploy:
   provider: script
