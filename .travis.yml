@@ -22,3 +22,8 @@ script:
   - npm run e2e
   - ng build -bh "https://4n1.co"
 
+deploy:
+  provider: script
+  script: bash docker_push
+  on:
+    branch: travis
