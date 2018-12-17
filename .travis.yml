@@ -8,7 +8,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t nicocourts/testing-docker
+  - docker build -t nicocourts/testing-docker .
   - docker ps -a
 
 deploy:
