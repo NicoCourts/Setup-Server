@@ -1,8 +1,0 @@
-language: minimal
-
-branches:
-  only:
-    - Live
-
-before_install:
-  - docker-compose build
